@@ -1,8 +1,7 @@
 # NRA Stocks Toolkit
-![NRA Stock Toolkit - Landing screen](screenshot-a.jpg)
+The purpose of this Chrome extension is to simplify annual tax reporting for stock holdings on the National Revenue Agency (NRA) portal in Bulgaria (https://portal.nra.bg). It helps users save time by pre-filling forms and making interactions with the portal faster and more efficient.
 
-## Overview
-The purpose of this extension is to simplify annual tax reporting for stock holdings on the National Revenue Agency (NRA) portal in Bulgaria (https://portal.nra.bg). It helps users save time by pre-filling forms and making interactions with the portal faster and more efficient.
+![NRA Stock Toolkit - Landing screen](screenshot-a.jpg)
 
 ![NRA Stock Toolkit - Stock Acquisition events screen](screenshot-b.jpg)
 
@@ -33,7 +32,7 @@ Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-st
 1. Download IBKR Statements:
   - Log in to your IBKR account and navigate to `Performance & Reports` > `Statements`.
   - Select your preferred account, then from `Default Statements` choose `Activity`.
-  - Set "Period" to "Annual" and choose the earliest year from the list. Keep "Language" set to English.
+  - Set `Period` to `Annual` and choose the earliest year from the list. Keep `Language` set to English.
   - In `Select a Format/Action` download the CSV file.
   - Repeat for each account and year you're reporting taxes for.
 2. Add Files to NRA Stocks Toolkit:
@@ -50,9 +49,12 @@ Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-st
   - Once completed, verify the data before submitting the form.
 
 ## Release notes
+⚠️ IMPORTANT: This version is in beta, meaning it is released for testing, bug fixes, and improvements.
+
+### 0.2.0 Beta
+- UI Improvements
 
 ### 0.1.0 Beta
-⚠️ IMPORTANT: This version is in beta, meaning it is released for testing, bug fixes, and improvements.
 - IBKR CSV statement processing
 - Stock Acquisition Events view
 - Stock Dividend Accruals view with year-based filtering
