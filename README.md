@@ -5,7 +5,7 @@ The purpose of this Chrome extension is to simplify annual tax reporting for sto
 
 ![NRA Stock Toolkit - Stock Acquisition events screen](screenshot-b.jpg)
 
-`Note:` The previous screenshot shows fake auto-generated statement details, used solely for displaying the interface. So, please don't judge the calculations based on it.
+Note: The previous screenshot shows fake auto-generated statement details, used solely for displaying the interface. So, please don't judge the calculations based on it.
 
 ## Who is this tool for?
 Investors in Bulgaria looking for a faster, more efficient way to manage their stock tax reporting.
@@ -14,14 +14,14 @@ Investors in Bulgaria looking for a faster, more efficient way to manage their s
 - Auto-fills Annex 8, Part I: Reports stocks and company shares held abroad as of December 31 of the tax year (stocks only).
 -	Auto-fills Annex 8, Part III: Determines the final tax due under Article 38 of the Personal Income Tax Act (PITA) for income from foreign sources of resident individuals.
 
-## Supported Brokers
+## Supported brokers
   - Interactive Brokers (IBKR) – Requires an Activity Statement in CSV format.
 
-## Supported Languages
+## Supported languages
 - English
 - Bulgarian
 
-## How to add extension to your Chrome Browser
+## How to add extension to your Chrome browser
 ![NRA Stock Toolkit - My Extensions screen](screenshot-c.jpg)
 
 Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-stocks-toolkit](https://github.com/antonfuchedzhiev/nra-stocks-toolkit).
@@ -32,7 +32,7 @@ Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-st
 4. `NRA Stock Toolkit` will now appear in your extensions list.
 5. To access it easily, pin the extension to your browser's toolbar.
 
-## How to Use
+## How to use
 1. Download IBKR Statements:
   - Log in to your IBKR account and navigate to `Performance & Reports` > `Statements`.
   - Select your preferred account, then from `Default Statements` choose `Activity`.
@@ -55,6 +55,9 @@ Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-st
 ## Release notes
 ⚠️ IMPORTANT: This version is in beta, meaning it is released for testing, bug fixes, and improvements.
 
+### 0.3.1 Beta
+- Persist the user's language preference using the [Chrome Storage API](https://developer.chrome.com/docs/extensions/reference/api/storage).
+
 ### 0.3.0 Beta
 - Added a language toggle to switch between English and Bulgarian.
 - Changed the font to Sofia Sans, which supports Cyrillic characters.
@@ -69,27 +72,27 @@ Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-st
 - Auto-prefill for NRA's Annex 8, Part I
 - Auto-prefill for NRA's Annex 8, Part III
 
-## What's Coming Next
+## What's coming next
 - Sales view
 - Auto-prefill for NRA's Annex 5 (Sales)
 - Bulgarian version of this README file
 - Dark/Light theme toggle (TBD 🤔)
 
-## Official Distribution and Privacy Notice
+## Official distribution and privacy notice
   - Your data stays private. This extension does not collect, store, or share personal data - everything is processed locally on your device.
   - The only external request made is to NRA's exchange rate service, and it only shares the acquisition date to fetch exchange rates for currency conversion. No other data is transmitted.
   - Official source: This extension is only available through the following github repository - [https://github.com/antonfuchedzhiev/nra-stocks-toolkit](https://github.com/antonfuchedzhiev/nra-stocks-toolkit). Any other sources may pose security risks, including malware, data theft, or compromised functionality.
 
-## Issues and Discussions
+## Issues and discussions
 🛠️ Issues: [https://github.com/antonfuchedzhiev/nra-stocks-toolkit/issues](https://github.com/antonfuchedzhiev/nra-stocks-toolkit/issues)
 
 💬 Discussions: [https://github.com/antonfuchedzhiev/nra-stocks-toolkit/discussions](https://github.com/antonfuchedzhiev/nra-stocks-toolkit/discussions)
 
-## NRA Portal Resources (March 27, 2024)
+## NRA Portal resources (March 27, 2024)
 
-### List of Agreements
+### List of agreements
 Countries with which Bulgaria has a Double Taxation Avoidance Agreement (DTAA) -
 https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi
 
-### Methods for Avoiding Double Taxation
+### Methods for avoiding double taxation
 Methods for relieving double taxation on profits and income earned by Bulgarian tax residents abroad, in accordance with the Double Taxation Avoidance Agreements (DTAA) - https://nra.bg/wps/portal/nra/documents/hiddenfloder1/3fd47b64-2f87-4ee4-8cba-ed43be5ffd6b

@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
-  "version": "0.3.0",
+  "version": "0.3.1",
   "name": "NRA Stocks Toolkit",
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "description": "Toolkit to simplify annual tax reporting for stock holdings on the NRA Bulgaria web portal (https://portal.nra.bg).",
   "action": {
