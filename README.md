@@ -17,6 +17,10 @@ Investors in Bulgaria looking for a faster, more efficient way to manage their s
 ## Supported Brokers
   - Interactive Brokers (IBKR) – Requires an Activity Statement in CSV format.
 
+## Supported Languages
+- English
+- Bulgarian
+
 ## How to add extension to your Chrome Browser
 ![NRA Stock Toolkit - My Extensions screen](screenshot-c.jpg)
 
@@ -39,32 +43,35 @@ Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-st
   - Open the NRA portal (https://portal.nra.bg) and navigate to the Annex 8 section.
   - Open the `NRA Stocks Toolkit` extension from your browser's extensions list.
   - Click `Add IBKR Activity Statement` and select all the downloaded CSV files.
-3. Review & apply acquisition events
-  - `Stock Acquisition Events` table will appear, summarizing the acquisitions. **Sales are deducted using the FIFO (First In, First Out) method (and are not displayed). Therefore, a complete trade order history up to the taxation year is required for maximum accuracy of calculations.**
-  - Click `Apply Events` to auto-fill the NRA Annex 8, Part I form. Exchange rates are retrieved from the NRA portal's official service.
+3. Review and apply acquisition events
+  - `Stock Acquisitions` table will appear, summarizing the acquisitions. **Sales are deducted using the FIFO (First In, First Out) method (and are not displayed). Therefore, a complete trade order history up to the taxation year is required for maximum accuracy of calculations.**
+  - Click `Fill Stocks` button to auto-fill the NRA Annex 8, Part I form. Exchange rates are retrieved from the NRA portal's official service.
   - Once completed, verify the data before submitting the form.
-4. Review & apply dividend events
-  - Switch to the `Stock Dividend Accruals` table to review the details. You can filter by year to match your tax reporting period.
-  - Click `Apply Dividends` to auto-fill the NRA Annex 8, Part III form. Exchange rates are retrieved from the NRA portal's official service based on the dividend pay date.
+4. Review and apply dividend events
+  - Switch to the `Received Dividends` table to review the details. You can filter by year to match your tax reporting period.
+  - Click `Fill Dividends` button to auto-fill the NRA Annex 8, Part III form. Exchange rates are retrieved from the NRA portal's official service based on the dividend pay date.
   - Once completed, verify the data before submitting the form.
 
 ## Release notes
 ⚠️ IMPORTANT: This version is in beta, meaning it is released for testing, bug fixes, and improvements.
 
+### 0.3.0 Beta
+- Added a language toggle to switch between English and Bulgarian.
+- Changed the font to Sofia Sans, which supports Cyrillic characters.
+
 ### 0.2.0 Beta
-- UI Improvements
+- UI improvements
 
 ### 0.1.0 Beta
 - IBKR CSV statement processing
-- Stock Acquisition Events view
-- Stock Dividend Accruals view with year-based filtering
+- Stock Acquisitions view
+- Received Dividend view with year-based filtering
 - Auto-prefill for NRA's Annex 8, Part I
 - Auto-prefill for NRA's Annex 8, Part III
 
 ## What's Coming Next
 - Sales view
 - Auto-prefill for NRA's Annex 5 (Sales)
-- Language picker to switch between English and Bulgarian
 - Bulgarian version of this README file
 - Dark/Light theme toggle (TBD 🤔)
 

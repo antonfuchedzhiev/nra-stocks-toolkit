@@ -1,0 +1,41 @@
+{
+  "COMMON": {
+    "APP_NAME": "NRA Stocks ||| Toolkit",
+    "STOCK_HOLDINGS_ACTIVITY": "Промени по притежаваните акции",
+    "AUTOFILL_OPTIONS": "Опции за автоматично попълване",
+    "STOCK_ACQUISITION": "Придобити акции",
+    "DIVIDEND_ACCRUALS": "Получени дивиденти",
+    "SALES": "Продадени Акции",
+    "ALL": "Всички",
+    "FILL_STOCKS": "Акции",
+    "FILL_DIVIDENDS": "Дивиденти",
+    "FILL_SALES": "Продажби",
+    "ENGLISH": "Английски",
+    "BULGARIAN": "Български",
+    "LANGUAGE": "Език:",
+    "MADE_BY": "Направен от"
+  },
+  "INITIAL": {
+    "INSTRUCTIONS": "Избери ||| IBKR ||| Activity Statement ||| файлове в ||| CSV ||| формат.",
+    "ADD_IBKR_STATEMENT": "Добави IBKR Activity Statement"
+  },
+  "DATA": {
+    "SYMBOL": "Тикер",
+    "EVENT": "Събитие",
+    "COUNT": "Брой",
+    "DATE": "Дата",
+    "TIME": "Час",
+    "TRADE_PRICE": "Цена",
+    "COMM_FEE": "Такса",
+    "BASIS": "Стойност",
+    "CURRENCY": "Валута",
+    "COUNTRY": "Държава",
+    "TAX": "Данък",
+    "FEE": "Такса",
+    "PURCHASE": "Покупка",
+    "SPLIT": "Сплит",
+    "GROSS_RATE": "Ставка",
+    "GROSS_AMOUNT": "Брутна сума",
+    "NET_AMOUNT": "Нетна Сума"
+  }
+}

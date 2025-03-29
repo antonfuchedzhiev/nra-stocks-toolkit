@@ -1,0 +1,41 @@
+{
+  "COMMON": {
+    "APP_NAME": "NRA Stocks ||| Toolkit",
+    "STOCK_HOLDINGS_ACTIVITY": "Stock Holdings Activity",
+    "AUTOFILL_OPTIONS": "Auto-fill options",
+    "STOCK_ACQUISITION": "Stock Acquisitions",
+    "DIVIDEND_ACCRUALS": "Received Dividends",
+    "SALES": "Sold Stocks",
+    "ALL": "All",
+    "FILL_STOCKS": "Fill Stocks",
+    "FILL_DIVIDENDS": "Fill Dividends",
+    "FILL_SALES": "Fill Sales",
+    "ENGLISH": "English",
+    "BULGARIAN": "Bulgarian",
+    "LANGUAGE": "Language:",
+    "MADE_BY": "Made by"
+  },
+  "INITIAL": {
+    "INSTRUCTIONS": "Provide ||| IBKR ||| Activity Statement ||| files in ||| CSV ||| format.",
+    "ADD_IBKR_STATEMENT": "Add IBKR Activity Statement"
+  },
+  "DATA": {
+    "SYMBOL": "Symbol",
+    "EVENT": "Event",
+    "COUNT": "Quantity",
+    "DATE": "Date",
+    "TIME": "Time",
+    "TRADE_PRICE": "Trade Price",
+    "COMM_FEE": "Comm/Fee",
+    "BASIS": "Basis",
+    "CURRENCY": "Currency",
+    "COUNTRY": "Country",
+    "TAX": "Tax",
+    "FEE": "Fee",
+    "PURCHASE": "Purchase",
+    "SPLIT": "Split",
+    "GROSS_RATE": "Gross Rate",
+    "GROSS_AMOUNT": "Gross Amount",
+    "NET_AMOUNT": "Net Amount"
+  }
+}
