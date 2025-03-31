@@ -1,9 +1,9 @@
 # NRA Stocks Toolkit
 The purpose of this Chrome extension is to simplify annual tax reporting for stock holdings on the National Revenue Agency (NRA) portal in Bulgaria (https://portal.nra.bg). It helps users save time by pre-filling forms and making interactions with the portal faster and more efficient.
 
-![NRA Stock Toolkit - Landing screen](screenshot-a.jpg)
+![NRA Stocks Toolkit - Landing screen](screenshot-a.jpg)
 
-![NRA Stock Toolkit - Stock Acquisition events screen](screenshot-b.jpg)
+![NRA Stocks Toolkit - Stock Acquisition events screen](screenshot-b.jpg)
 
 Note: The previous screenshot shows fake auto-generated statement details, used solely for displaying the interface. So, please don't judge the calculations based on it.
 
@@ -13,6 +13,7 @@ Investors in Bulgaria looking for a faster, more efficient way to manage their s
 ## Features
 - Auto-fills Annex 8, Part I: Reports stocks and company shares held abroad as of December 31 of the tax year (stocks only).
 -	Auto-fills Annex 8, Part III: Determines the final tax due under Article 38 of the Personal Income Tax Act (PITA) for income from foreign sources of resident individuals.
+-	Auto-fills Annex 5, Part I, Table II: Taxable income from the sale or exchange of shares.
 
 ## Supported brokers
   - Interactive Brokers (IBKR) – Requires an Activity Statement in CSV format.
@@ -22,38 +23,48 @@ Investors in Bulgaria looking for a faster, more efficient way to manage their s
 - Bulgarian
 
 ## How to add extension to your Chrome browser
-![NRA Stock Toolkit - My Extensions screen](screenshot-c.jpg)
+![NRA Stocks Toolkit - My Extensions screen](screenshot-c.jpg)
 
 Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-stocks-toolkit](https://github.com/antonfuchedzhiev/nra-stocks-toolkit).
 
-1. In the Chrome address bar, type `chrome://extensions` and press Enter to open the `My extensions` page.
-2. Enable `Developer mode` using the toggle in the top-right corner. Three new buttons will appear.
-3. Click `Load unpacked`, then select the folder where you downloaded the extension.
-4. `NRA Stock Toolkit` will now appear in your extensions list.
+1. In the Chrome address bar, type "chrome://extensions" and press Enter to open the "My extensions" page.
+2. Enable "Developer mode" using the toggle in the top-right corner. Three new buttons will appear.
+3. Click "Load unpacked", then select the folder where you downloaded the extension.
+4. "NRA Stocks Toolkit" will now appear in your extensions list.
 5. To access it easily, pin the extension to your browser's toolbar.
 
 ## How to use
 1. Download IBKR Statements:
-  - Log in to your IBKR account and navigate to `Performance & Reports` > `Statements`.
-  - Select your preferred account, then from `Default Statements` choose `Activity`.
-  - Set `Period` to `Annual` and choose the earliest year from the list. Keep `Language` set to English.
-  - In `Select a Format/Action` download the CSV file.
+  - Log in to your IBKR account and navigate to "Performance & Reports" > "Statements".
+  - Select your preferred account, then from "Default Statements" choose "Activity".
+  - Set "Period" to "Annual" and choose the earliest year from the list. Keep "Language" set to English.
+  - In "Select a Format/Action" download the CSV file.
   - Repeat for each account and year you're reporting taxes for.
 2. Add Files to NRA Stocks Toolkit:
-  - Open the NRA portal (https://portal.nra.bg) and navigate to the Annex 8 section.
-  - Open the `NRA Stocks Toolkit` extension from your browser's extensions list.
-  - Click `Add IBKR Activity Statement` and select all the downloaded CSV files.
+  - Open the NRA portal (https://portal.nra.bg) and navigate to:
+    - Annex 8 for "Stock Acquisitions" and "Received Dividends"
+    - Annex 5 for "Sold Stocks"
+  - Open the "NRA Stocks Toolkit" extension from your browser's extensions list.
+  - Click "Add IBKR Activity Statement" and select all the downloaded CSV files.
 3. Review and apply acquisition events
-  - `Stock Acquisitions` table will appear, summarizing the acquisitions. **Sales are deducted using the FIFO (First In, First Out) method (and are not displayed). Therefore, a complete trade order history up to the taxation year is required for maximum accuracy of calculations.**
-  - Click `Fill Stocks` button to auto-fill the NRA Annex 8, Part I form. Exchange rates are retrieved from the NRA portal's official service.
+  - "Stock Acquisitions" table will appear, summarizing the acquisitions. **Sales are deducted using the FIFO (First In, First Out) method (and are not displayed). Therefore, a complete trade order history up to the taxation year is required for maximum accuracy of calculations.**
+  - Click "Fill Stocks" button to auto-fill the NRA Annex 8, Part I form. Exchange rates are retrieved from the NRA portal's official service.
   - Once completed, verify the data before submitting the form.
-4. Review and apply dividend events
-  - Switch to the `Received Dividends` table to review the details. You can filter by year to match your tax reporting period.
-  - Click `Fill Dividends` button to auto-fill the NRA Annex 8, Part III form. Exchange rates are retrieved from the NRA portal's official service based on the dividend pay date.
+4. Review and apply dividends
+  - Switch to the "Received Dividends" table to review the details. You can filter by year to match your tax reporting period.
+  - Click "Fill Dividends" button to auto-fill the NRA Annex 8, Part III form. Exchange rates are retrieved from the NRA portal's official service based on the dividend pay date.
+  - Once completed, verify the data before submitting the form.
+5. Review and apply sales
+  - Switch to the "Sold Stocks" table to review the details.
+  - Click "Fill Sales" button to auto-fill the NRA Annex 5, Part I, Table II form. Exchange rates are retrieved from the NRA portal's official service based on the sale date.
   - Once completed, verify the data before submitting the form.
 
 ## Release notes
 ⚠️ IMPORTANT: This version is in beta, meaning it is released for testing, bug fixes, and improvements.
+
+### 0.4.0 Beta
+- Sales view
+- Auto-prefill for NRA's Annex 5, Part I, Table II - taxable income from the sale or exchange of shares
 
 ### 0.3.1 Beta
 - Persist the user's language preference using the [Chrome Storage API](https://developer.chrome.com/docs/extensions/reference/api/storage).
@@ -73,10 +84,10 @@ Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-st
 - Auto-prefill for NRA's Annex 8, Part III
 
 ## What's coming next
-- Sales view
-- Auto-prefill for NRA's Annex 5 (Sales)
+- Add year-based filter for the "Sold Stocks" table
 - Bulgarian version of this README file
 - Dark/Light theme toggle (TBD 🤔)
+- Video tutorial? 🎬 🤔
 
 ## Official distribution and privacy notice
   - Your data stays private. This extension does not collect, store, or share personal data - everything is processed locally on your device.

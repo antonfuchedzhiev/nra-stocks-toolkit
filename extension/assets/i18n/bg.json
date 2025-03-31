@@ -5,6 +5,10 @@
     "AUTOFILL_OPTIONS": "Опции за автоматично попълване",
     "STOCK_ACQUISITION": "Придобити акции",
     "DIVIDEND_ACCRUALS": "Получени дивиденти",
+    "NO_DIVIDENDS": "Няма дивиденти",
+    "NO_ACQUISITIONS": "Няма придобити акции",
+    "NO_SALES": "Няма продажби",
+    "SOLD_STOCKS": "Продадени акции",
     "SALES": "Продадени Акции",
     "ALL": "Всички",
     "FILL_STOCKS": "Акции",
@@ -36,6 +40,7 @@
     "SPLIT": "Сплит",
     "GROSS_RATE": "Ставка",
     "GROSS_AMOUNT": "Брутна сума",
-    "NET_AMOUNT": "Нетна Сума"
+    "NET_AMOUNT": "Нетна Сума",
+    "REALIZED_PL": "Реализирана П/З"
   }
 }

@@ -5,6 +5,10 @@
     "AUTOFILL_OPTIONS": "Auto-fill options",
     "STOCK_ACQUISITION": "Stock Acquisitions",
     "DIVIDEND_ACCRUALS": "Received Dividends",
+    "NO_DIVIDENDS": "No dividends",
+    "NO_ACQUISITIONS": "No acquisitions",
+    "NO_SALES": "No sales",
+    "SOLD_STOCKS": "Sold Stocks",
     "SALES": "Sold Stocks",
     "ALL": "All",
     "FILL_STOCKS": "Fill Stocks",
@@ -36,6 +40,7 @@
     "SPLIT": "Split",
     "GROSS_RATE": "Gross Rate",
     "GROSS_AMOUNT": "Gross Amount",
-    "NET_AMOUNT": "Net Amount"
+    "NET_AMOUNT": "Net Amount",
+    "REALIZED_PL": "Realized P/L"
   }
 }
