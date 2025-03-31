@@ -62,6 +62,9 @@ Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-st
 ## Release notes
 ⚠️ IMPORTANT: This version is in beta, meaning it is released for testing, bug fixes, and improvements.
 
+### 0.5.1 Beta
+- Bug fixes
+
 ### 0.5.0 Beta
 - Year-based filter for the "Sold Stocks" table
 - Added a language toggle to the header
