@@ -1,6 +1,7 @@
 {
   "COMMON": {
     "APP_NAME": "NRA Stocks ||| Toolkit",
+    "APP_SUBTITLE": "Aвтоматично попълване на ГДД за инвеститори",
     "STOCK_HOLDINGS_ACTIVITY": "Промени по притежаваните акции",
     "AUTOFILL_OPTIONS": "Опции за автоматично попълване",
     "STOCK_ACQUISITION": "Придобити акции",

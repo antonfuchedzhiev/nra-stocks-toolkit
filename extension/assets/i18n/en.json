@@ -1,6 +1,7 @@
 {
   "COMMON": {
     "APP_NAME": "NRA Stocks ||| Toolkit",
+    "APP_SUBTITLE": "Annual Tax Return Auto-Filler for Investors",
     "STOCK_HOLDINGS_ACTIVITY": "Stock Holdings Activity",
     "AUTOFILL_OPTIONS": "Auto-fill options",
     "STOCK_ACQUISITION": "Stock Acquisitions",

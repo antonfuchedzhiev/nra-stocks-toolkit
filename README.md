@@ -1,9 +1,9 @@
 # NRA Stocks Toolkit
 The purpose of this Chrome extension is to simplify annual tax reporting for stock holdings on the National Revenue Agency (NRA) portal in Bulgaria (https://portal.nra.bg). It helps users save time by pre-filling forms and making interactions with the portal faster and more efficient.
 
-![NRA Stocks Toolkit - Landing screen](screenshot-a.jpg)
+![NRA Stocks Toolkit - Landing screen](screenshot-a.png)
 
-![NRA Stocks Toolkit - Stock Acquisition events screen](screenshot-b.jpg)
+![NRA Stocks Toolkit - Stock Acquisition events screen](screenshot-b.png)
 
 Note: The previous screenshot shows fake auto-generated statement details, used solely for displaying the interface. So, please don't judge the calculations based on it.
 
@@ -62,6 +62,11 @@ Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-st
 ## Release notes
 ⚠️ IMPORTANT: This version is in beta, meaning it is released for testing, bug fixes, and improvements.
 
+### 0.5.0 Beta
+- Year-based filter for the "Sold Stocks" table
+- Added a language toggle to the header
+- UI improvements
+
 ### 0.4.0 Beta
 - Sales view
 - Auto-prefill for NRA's Annex 5, Part I, Table II - taxable income from the sale or exchange of shares
@@ -84,7 +89,6 @@ Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-st
 - Auto-prefill for NRA's Annex 8, Part III
 
 ## What's coming next
-- Add year-based filter for the "Sold Stocks" table
 - Bulgarian version of this README file
 - Dark/Light theme toggle (TBD 🤔)
 - Video tutorial? 🎬 🤔
