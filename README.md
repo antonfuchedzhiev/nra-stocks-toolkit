@@ -62,6 +62,10 @@ Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-st
 ## Release notes
 ⚠️ IMPORTANT: This version is in beta, meaning it is released for testing, bug fixes, and improvements.
 
+### 0.5.2 Beta
+- Increase decimal precision for the exchange
+- Bug fixes
+
 ### 0.5.1 Beta
 - Bug fixes
 
