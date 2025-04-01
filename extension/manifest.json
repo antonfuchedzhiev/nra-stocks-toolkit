@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "version": "0.5.2",
+  "version": "0.6.0",
   "name": "NRA Stocks Toolkit",
   "permissions": [
     "activeTab",

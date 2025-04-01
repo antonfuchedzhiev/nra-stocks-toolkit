@@ -62,6 +62,10 @@ Download the unpacked extension from [https://github.com/antonfuchedzhiev/nra-st
 ## Release notes
 ⚠️ IMPORTANT: This version is in beta, meaning it is released for testing, bug fixes, and improvements.
 
+### 0.6.0 Beta
+- Highlight the action button while prefilling the table
+- Prefill Annex 8, Part I starting from the end of the list in case there are already filled rows
+
 ### 0.5.2 Beta
 - Increase decimal precision for the exchange
 - Bug fixes
