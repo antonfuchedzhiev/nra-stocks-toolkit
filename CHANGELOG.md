@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0
+- Bug fixes
+- Added a how-to-use demo video
+
 ## 0.6.1 Beta
 - Fix inconsistent language indicator
 

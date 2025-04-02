@@ -1,7 +1,8 @@
 # NRA Stocks Toolkit - Annual Tax Return (ATR) Auto-Filler for Bulgarian investors
-The purpose of this бровсер extension is to simplify annual tax reporting for stock holdings on the National Revenue Agency (NRA) portal in Bulgaria (https://portal.nra.bg). It helps users save time by pre-filling forms and making interactions with the portal faster and more efficient.
 
-**За версия на този документ на български език, кликни [тук](README-BG.md). (For the Bulgarian version of this document, click [here](README-BG.md)).**
+**За версия на този документ на български език, кликни [тук](README-BG.md).**
+
+The purpose of this browser extension is to simplify annual tax reporting for stock holdings on the National Revenue Agency (NRA) portal in Bulgaria (https://portal.nra.bg). It helps users save time by pre-filling forms and making interactions with the portal faster and more efficient.
 
 ![NRA Stocks Toolkit - Landing screen](screenshot-a.png)
 
@@ -41,7 +42,8 @@ Download the unpacked extension as a ZIP file from [here](https://github.com/ant
 5. To access it easily, pin the extension to your browser's toolbar.
 
 ## How to use
-**⚠️ IMPORTANT: This version is in beta, meaning it is released for testing, bug fixes, and improvements.**
+
+[![NRA Stocks Toolkit - YouTube Video](screenshot-d.png)](https://youtu.be/JjMxRMxLQno)
 
 ### Download IBKR statements
   1. Log in to your IBKR account and navigate to "Performance & Reports" > "Statements".
@@ -51,6 +53,7 @@ Download the unpacked extension as a ZIP file from [here](https://github.com/ant
   5. Repeat for each account and year you're reporting taxes for.
 
 ### Add files to NRA Stocks Toolkit
+
   1. Open the NRA portal (https://portal.nra.bg) and navigate to:
   - Annex 8 for "Stock Acquisitions" and "Received Dividends"
   - Annex 5 for "Sold Stocks"
@@ -71,9 +74,6 @@ Download the unpacked extension as a ZIP file from [here](https://github.com/ant
   1. Switch to the "Sold Stocks" table to review the details.
   2. Click "Fill Sales" button to auto-fill the NRA Annex 5, Part I, Table II form. Exchange rates are retrieved from the NRA portal's official service based on the sale date.
   3. Once completed, verify the data before submitting the form.
-
-## What's coming next
-- Demo? 🎬 🤔
 
 ## Official distribution and privacy notice
   - Your data stays private. This extension does not collect, store, or share personal data - everything is processed locally on your device.
