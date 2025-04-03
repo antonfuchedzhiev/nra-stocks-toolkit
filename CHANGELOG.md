@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.1
+- Bug fix: Properly handle empty columns when parsing the CSV files.
+
 ## 1.0.0
 - Bug fixes
 - Added a how-to-use demo video
