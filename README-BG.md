@@ -32,7 +32,7 @@ Download the unpacked extension as a ZIP file from [here](https://github.com/ant
 
 Изтеглете екстеншъна като ZIP файл от [тук](https://github.com/antonfuchedzhiev/nra-stocks-toolkit/archive/refs/heads/main.zip) или клонирайте хранилището чрез предпочитания от вас Git клиент.
 
-![NRA Stocks Toolkit - My Extensions screen](screenshot-c.jpg)
+![NRA Stocks Toolkit - My Extensions screen](screenshot-c.png)
 
 1. Въведете в адресната лента: "chrome://extensions" и натиснете Enter, за да отворите страницата "My extensions".
 - Google Chrome - отворете "chrome://extensions"

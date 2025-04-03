@@ -30,7 +30,7 @@ The purpose of this browser extension is to simplify annual tax reporting for st
 ## How to add extension to your browser
 Download the unpacked extension as a ZIP file from [here](https://github.com/antonfuchedzhiev/nra-stocks-toolkit/archive/refs/heads/main.zip), or clone the repository using your preferred Git client.
 
-![NRA Stocks Toolkit - My Extensions screen](screenshot-c.jpg)
+![NRA Stocks Toolkit - My Extensions screen](screenshot-c.png)
 
 1. In the address bar, type "chrome://extensions" and press Enter to open the "My extensions" page.
 - Google Chrome - open "chrome://extensions"
