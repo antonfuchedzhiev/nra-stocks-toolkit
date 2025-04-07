@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2
+- Add IBIS and IBIS2 (Deutsche Börse Xetra) as separate stock exchanges.
+
 ## 1.0.1
 - Bug fix: Properly handle empty columns when parsing the CSV files.
 
