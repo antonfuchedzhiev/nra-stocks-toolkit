@@ -6,6 +6,8 @@
 
 Този браузър екстеншън има за цел да улесни попълването на приложенията от ГДД, отнасящи се до притежаване, продажба и дивиденти от акции, в портала на Националната Агенция за Приходите (НАП) в България (https://portal.nra.bg). То помага на потребителите да спестят време, като предварително попълва формуляри и прави взаимодействието с портала по-бързо и ефективно.
 
+За кратка демонстрация виж видеото: [тук](https://youtu.be/JjMxRMxLQno).
+
 ![NRA Stocks Toolkit - Landing screen](screenshot-a.png)
 
 ![NRA Stocks Toolkit - Stock Acquisition events screen](screenshot-b.png)
@@ -19,6 +21,8 @@
 
 ## Поддържани платформи за търговия с акции
   - Interactive Brokers (IBKR) – изисква "Activity Statement" във формат CSV.
+
+> Ако желаете да добавя поддръжка за други популярни платформи за търговия с акции, не се колебайте да ми пишете на [antonix.uk@gmail.com](mailto:antonix.uk@gmail.com) или да започнете [дискусия](https://github.com/antonfuchedzhiev/nra-stocks-toolkit/discussions) в GitHub. За да стане това възможно, ще ми е необходим примерен отчет от съответната платформа - най-добре във формат CSV, без лична информация и с примерни (нереални) данни. Като алтернатива можете сами да напишете адаптер или конвертор, който да съответства на структурата на IBKR Activity Statement, използвайки предоставения тестов отчет: [FAKE_U921264901_2023_2024.csv](resources/FAKE_U921264901_2023_2024.csv).
 
 ## Поддържани езици
 - Английски
@@ -45,7 +49,9 @@ Download the unpacked extension as a ZIP file from [here](https://github.com/ant
 4. "NRA Stocks Toolkit" ще се появи в списъка с екстеншъни.
 5. За бърз достъп, "закачете" 😂 екстеншъна в лентата с инструменти на браузъра.
 
-## Как да използваме
+## Как се използва
+
+За кратка демонстрация виж видеото: [тук](https://youtu.be/JjMxRMxLQno).
 
 [![NRA Stocks Toolkit - YouTube Video](screenshot-d.png)](https://youtu.be/JjMxRMxLQno)
 

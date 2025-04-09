@@ -6,6 +6,8 @@
 
 The purpose of this browser extension is to simplify annual tax reporting for stock holdings on the National Revenue Agency (NRA) portal in Bulgaria (https://portal.nra.bg). It helps users save time by pre-filling forms and making interactions with the portal faster and more efficient.
 
+For a quick demonstration, check out the video: [here](https://youtu.be/JjMxRMxLQno).
+
 ![NRA Stocks Toolkit - Landing screen](screenshot-a.png)
 
 ![NRA Stocks Toolkit - Stock Acquisition events screen](screenshot-b.png)
@@ -19,6 +21,8 @@ The purpose of this browser extension is to simplify annual tax reporting for st
 
 ## Supported stock trading platforms
   - Interactive Brokers (IBKR) – Requires an activity statement in CSV format.
+
+> If you'd like me to add support for other popular stock trading platforms, feel free to email me at [antonix.uk@gmail.com](mailto:antonix.uk@gmail.com) or start a [discussion](https://github.com/antonfuchedzhiev/nra-stocks-toolkit/discussions) on GitHub. To make this possible, I'd need an example report from the platform - ideally in CSV format, with no personal information and preferably using fake data. Alternatively, you can write your own adapter or converter to match the IBKR Activity Statement data structure using the provided test report: [FAKE_U921264901_2023_2024.csv](resources/FAKE_U921264901_2023_2024.csv).
 
 ## Languages supported
 - English
@@ -44,6 +48,8 @@ Download the unpacked extension as a ZIP file from [here](https://github.com/ant
 5. To access it easily, pin the extension to your browser's toolbar.
 
 ## How to use
+
+For a quick demonstration, check out the video [here](https://youtu.be/JjMxRMxLQno).
 
 [![NRA Stocks Toolkit - YouTube Video](screenshot-d.png)](https://youtu.be/JjMxRMxLQno)
 
