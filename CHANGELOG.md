@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+- Calculate cumulative buy/sell prices and realized P/L, since the NRA portal doesn't allow submitting multiple lines with code 508 in Annex 5, Part I, Table II. 🤷🏻‍♂️
+- Add a Non-EU/EU filter to the sold stocks view, since Annex 5, Part I, Table II applies to sales on Non-EU stock exchanges. Sales of stocks purchased on EU stock exchanges should be reported in Annex 13, Part II, under code 508 (TODO).
+
 ## 1.0.2
 - Add IBIS and IBIS2 (Deutsche Börse Xetra) as separate stock exchanges.
 

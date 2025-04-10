@@ -18,7 +18,9 @@
     "ENGLISH": "English",
     "BULGARIAN": "Bulgarian",
     "LANGUAGE": "Language:",
-    "MADE_BY": "Made by"
+    "MADE_BY": "Made by",
+    "EU": "EU Countries",
+    "NON_EU": "NON-EU Countries"
   },
   "INITIAL": {
     "INSTRUCTIONS": "Provide ||| IBKR ||| Activity Statement ||| files in ||| CSV ||| format.",
@@ -33,6 +35,7 @@
     "TRADE_PRICE": "Trade Price",
     "COMM_FEE": "Comm/Fee",
     "BASIS": "Basis",
+    "PROCEEDS": "Proceeds",
     "CURRENCY": "Currency",
     "COUNTRY": "Country",
     "TAX": "Tax",
@@ -42,6 +45,6 @@
     "GROSS_RATE": "Gross Rate",
     "GROSS_AMOUNT": "Gross Amount",
     "NET_AMOUNT": "Net Amount",
-    "REALIZED_PL": "Realized P/L"
+    "REALIZED_PL": "Real. P/L"
   }
 }

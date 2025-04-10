@@ -18,7 +18,9 @@
     "ENGLISH": "Английски",
     "BULGARIAN": "Български",
     "LANGUAGE": "Език:",
-    "MADE_BY": "Направен от"
+    "MADE_BY": "Направен от",
+    "EU": "Държави в ЕС",
+    "NON_EU": "Държави извън ЕС"
   },
   "INITIAL": {
     "INSTRUCTIONS": "Избери ||| IBKR ||| Activity Statement ||| файлове в ||| CSV ||| формат.",
@@ -33,6 +35,7 @@
     "TRADE_PRICE": "Цена",
     "COMM_FEE": "Такса",
     "BASIS": "Стойност",
+    "PROCEEDS": "Приходи",
     "CURRENCY": "Валута",
     "COUNTRY": "Държава",
     "TAX": "Данък",
@@ -42,6 +45,6 @@
     "GROSS_RATE": "Ставка",
     "GROSS_AMOUNT": "Брутна сума",
     "NET_AMOUNT": "Нетна Сума",
-    "REALIZED_PL": "Реализирана П/З"
+    "REALIZED_PL": "Реал. П/З"
   }
 }

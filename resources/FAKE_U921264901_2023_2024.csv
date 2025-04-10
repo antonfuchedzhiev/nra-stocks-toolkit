@@ -3,13 +3,14 @@ Trades,Data,Order,Stocks,USD,XYZ,"2023-07-15, 10:32:12",18,215.75,216.80,-3883.5
 Trades,Data,Order,Stocks,USD,LMN,"2024-10-22, 14:45:19",7,14.30,14.90,-100.10,-0.45,100.55,0,2.10,O
 Trades,Data,Order,Stocks,USD,LMN,"2024-11-30, 09:18:45",-6,17.85,17.40,107.10,-0.50,-107.80,-0.75,3.60,C;P
 Trades,Data,Order,Stocks,USD,ABC,"2023-08-05, 13:27:45",25,85.60,86.20,-2140.00,-1.50,2141.50,0,15.00,O
-Trades,Data,Order,Stocks,USD,DEF,"2023-08-12, 09:45:10",11,150.25,149.80,1502.50,-1.00,2503.50,-0.50,-4.50,C;P
-Trades,Data,Order,Stocks,USD,DEF,"2023-09-12, 09:50:10",-10,150.25,149.80,1502.50,-1.00,-1503.50,-0.50,-4.50,C;P
+Trades,Data,Order,Stocks,USD,DEF,"2024-08-12, 09:45:10",11,150.25,149.80,1502.50,1.00,2503.50,-0.50,-4.50,C;P
+Trades,Data,Order,Stocks,USD,DEF,"2024-09-12, 09:50:10",-10,150.25,149.80,1702.50,1.00,1503.24,199,26,-4.50,C;P
 Trades,Data,Order,Stocks,USD,GHI,"2023-11-18, 16:12:30",50,32.10,32.50,-1605.00,-2.00,1607.00,0,20.00,O
 Trades,Data,Order,Stocks,USD,JKL,"2023-12-01, 11:30:45",20,45.20,44.90,904.00,-1.75,905.75,-0.25,-6.00,C;P
 Trades,Data,Order,Stocks,USD,MNO,"2024-01-15, 09:05:20",30,92.50,93.00,-2775.00,-2.25,2777.25,0,15.00,O
 Trades,Data,Order,Stocks,USD,PQR,"2024-02-20, 14:15:10",15,75.40,74.90,1131.00,-1.50,1132.50,-0.25,-7.50,C;P
-Trades,Data,Order,Stocks,USD,STU,"2024-03-10, 10:40:30",40,60.25,60.50,-2410.00,-2.00,2412.00,0,10.00,O
+Trades,Data,Order,Stocks,USD,STU,"2024-03-10, 10:40:30",40,60.25,60.50,2410.00,2.00,2412.00,0,10.00,O
+Trades,Data,Order,Stocks,USD,STU,"2024-03-12, 12:45:13",-10,60.25,60.50,2310.00,2.00,2412.00,-102,10.00,O
 
 Change in Dividend Accruals,Header,Asset Category,Currency,Symbol,Date,Ex Date,Pay Date,Quantity,Tax,Fee,Gross Rate,Gross Amount,Net Amount,Code
 Change in Dividend Accruals,Data,Stocks,USD,XYZ,2024-10-18,2024-10-19,2024-10-25,40,1.00,0,0.30,12.00,11.00,Po
@@ -25,7 +26,7 @@ Corporate Actions,Data,Stocks,USD,2023-09-15,"2023-09-15, 13:27:45","ABC(US56789
 Trades,Data,Order,Stocks,USD,VWX,"2024-04-05, 16:50:15",25,120.30,119.80,3007.50,-2.50,3010.00,-0.50,-12.50,C;P
 Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Underlying,Listing Exch,Multiplier,Type,Code
 Financial Instrument Information,Data,Stocks,XYZ,XYZ TECHNOLOGIES INC,987654,US1234567890,XYZ,NYSE,1,COMMON,
-Financial Instrument Information,Data,Stocks,LMN,LMN INDUSTRIES CORP,654321,US0987654321,LMN,NYSE,1,COMMON
+Financial Instrument Information,Data,Stocks,LMN,LMN INDUSTRIES CORP,654321,US0987654321,LMN,IBIS,1,COMMON
 Financial Instrument Information,Data,Stocks,ABC,ABC ENERGY CORP,543210,US5678901234,ABC,NASDAQ,1,COMMON,
 Financial Instrument Information,Data,Stocks,DEF,DEF PHARMA INC,432109,US4321098765,DEF,NASDAQ,1,COMMON,
 Financial Instrument Information,Data,Stocks,GHI,GHI LOGISTICS LLC,321098,US3456789012,GHI,NYSE,1,COMMON,
