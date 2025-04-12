@@ -12,15 +12,17 @@
     "SOLD_STOCKS": "Sold Stocks",
     "SALES": "Sold Stocks",
     "ALL": "All",
-    "FILL_STOCKS": "Fill Stocks",
-    "FILL_DIVIDENDS": "Fill Dividends",
-    "FILL_SALES": "Fill Sales",
+    "FILL_STOCKS": "Fill Stocks (Annex 8)",
+    "FILL_DIVIDENDS": "Fill Dividends (Annex 8)",
+    "FILL_SALES": "Fill Sales Outside EU (Annex 5)",
+    "FILL_SALES_EU": "Fill Sales From EU (Annex 13)",
     "ENGLISH": "English",
     "BULGARIAN": "Bulgarian",
     "LANGUAGE": "Language:",
     "MADE_BY": "Made by",
     "EU": "EU Countries",
-    "NON_EU": "NON-EU Countries"
+    "NON_EU": "NON-EU Countries",
+    "EU_SALES_DISCLAIMER": "NOTE: ||| Sales from stock exchanges within the EU (European Union) are ||| highlighted in blue ||| and should be filled in Annex 13, Part II, under Code 508."
   },
   "INITIAL": {
     "INSTRUCTIONS": "Provide ||| IBKR ||| Activity Statement ||| files in ||| CSV ||| format.",
