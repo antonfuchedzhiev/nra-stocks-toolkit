@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0
+- Only the auto-fill options relevant to the selected view are enabled.
+- Disabled view when no records are present.
+
 ## 1.1.0
 - Moved the Auto-Fill options to a dropdown menu.
 - Split the Sales auto-fill into two options: "Fill Sales Outside the EU (Annex 5)" and "Fill Sales From the EU (Annex 13)".
