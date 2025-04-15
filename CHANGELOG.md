@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.0
+- Minor UI adjustments.
+
 ## 1.2.0
 - Only the auto-fill options relevant to the selected view are enabled.
 - Disabled view when no records are present.

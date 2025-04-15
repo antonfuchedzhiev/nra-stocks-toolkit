@@ -2,11 +2,11 @@
 
 **За версия на този документ на български език, кликни [тук](README-BG.md).**
 
->**Make sure you always use the latest version, which is currently v. 1.2.0.**
+>**Make sure you always use the latest version, which is currently v. 1.3.0.**
 
 The purpose of this browser extension is to simplify annual tax reporting for stock holdings on the National Revenue Agency (NRA) portal in Bulgaria (https://portal.nra.bg). It helps users save time by pre-filling forms and making interactions with the portal faster and more efficient.
 
-For a quick demonstration, check out the video: [here](https://youtu.be/JjMxRMxLQno).
+For a quick demonstration, check out the video: [here](https://youtu.be/JjMxRMxLQno) (to be updated).
 
 ![NRA Stocks Toolkit - Landing screen](screenshot-a.png)
 
@@ -18,6 +18,7 @@ For a quick demonstration, check out the video: [here](https://youtu.be/JjMxRMxL
 - Auto-fills Annex 8, Part I: Reports stocks and company shares held abroad as of December 31 of the tax year (stocks only).
 -	Auto-fills Annex 8, Part III: Determines the final tax due under Article 38 of the Personal Income Tax Act (PITA) for income from foreign sources of resident individuals.
 -	Auto-fills Annex 5, Part I, Table II: Taxable income from the sale or exchange of shares.
+-	Auto-fills Annex 13, Part II, Code 508: Sold stocks withn EU.
 
 ## Supported stock trading platforms
   - Interactive Brokers (IBKR) – Requires an activity statement in CSV format.
@@ -62,30 +63,30 @@ For a quick demonstration, check out the video [here](https://youtu.be/JjMxRMxLQ
 
 ### Add files to NRA Stocks Toolkit
   1. Open the NRA portal (https://portal.nra.bg) and navigate to:
-  - Annex 8 for "Stock Acquisitions" and "Received Dividends"
-  - Annex 5 for "Sold Stocks" outside EU
-  - Annex 13 for "Sold Stocks" withn EU
+  - Annex 8 for stock acquisitions and received dividends
+  - Annex 5 for sold stocks outside EU
+  - Annex 13 for sold stocks withn EU
   2. Open the "NRA Stocks Toolkit" extension from your browser's extensions list.
   3. Click "Add IBKR Activity Statement" and select all the downloaded CSV files.
 
 ### Review and fill in stock acquisitions
   1. "Stock Acquisitions" table will appear, summarizing the acquisitions. **Sales are deducted using the FIFO (First In, First Out) method (and are not displayed). Therefore, a complete trade order history up to the taxation year is required for maximum accuracy of calculations.**
-  2. Click "Fill Stocks (Annex 8)" button from "Auto-fill options" menu to auto-fill the NRA Annex 8, Part I form. Exchange rates are retrieved from the NRA portal's official service.
+  2. Select "Stocks (Annex 8)" option from "Auto-fill" menu to auto-fill the NRA Annex 8, Part I form. Exchange rates are retrieved from the NRA portal's official service.
   3. Once completed, verify the data before submitting the form.
 
 ### Review and fill in dividends
   1. Switch to the "Received Dividends" table to review the details. You can filter by year to match your tax reporting period.
-  2. Click "Fill Dividends (Annex 8)" button from "Auto-fill options" menu to auto-fill the NRA Annex 8, Part III form. Exchange rates are retrieved from the NRA portal's official service based on the dividend pay date.
+  2. Select "Dividends (Annex 8)" option from "Auto-fill" menu to auto-fill the NRA Annex 8, Part III form. Exchange rates are retrieved from the NRA portal's official service based on the dividend pay date.
   3. Once completed, verify the data before submitting the form.
 
 ### Review and fill in sales from Non-EU stock exchanges
   1. Switch to the "Sold Stocks" table. You can filter by year to match the tax period, then review the details.
-  2. Click "Fill Sales Outside EU (Annex 5)" button from "Auto-fill options" menu to auto-fill the NRA Annex 5, Part I, Table II form. Exchange rates are retrieved from the NRA portal's official service based on the sale date.
+  2. Select "Sales Outside EU (Annex 5)" option from "Auto-fill" menu to auto-fill the NRA Annex 5, Part I, Table II form. Exchange rates are retrieved from the NRA portal's official service based on the sale date.
   4. Once completed, verify the data before submitting the form.
 
-### Review and fill in sales from EU stock exchanges
+### Review and fill in sales within EU stock exchanges
   1. If you see lines highlighted in blue in the "Sold Stocks" table, it means you need to enter them into Annex 13 and navigate to that section on the NRA portal website.
-  2. Click "Fill Sales From EU (Annex 13)" button from "Auto-fill options" menu to auto-fill the NRA Annex 13, Part II, Code 508. Exchange rates are retrieved from the NRA portal's official service based on the sale date.
+  2. Select "Sales Within EU (Annex 13)" option from "Auto-fill" menu to auto-fill the NRA Annex 13, Part II, Code 508. Exchange rates are retrieved from the NRA portal's official service based on the sale date.
   4. Once completed, verify the data before submitting the form.
 
 ## Official distribution and privacy notice
