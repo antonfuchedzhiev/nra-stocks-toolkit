@@ -2,7 +2,7 @@
 
 **За версия на този документ на български език, кликни [тук](README-BG.md).**
 
->**Make sure you always use the latest version, which is currently v. 1.3.0.**
+>**Make sure you always use the latest version, which is currently v. 1.3.1.**
 
 The purpose of this browser extension is to simplify annual tax reporting for stock holdings on the National Revenue Agency (NRA) portal in Bulgaria (https://portal.nra.bg). It helps users save time by pre-filling forms and making interactions with the portal faster and more efficient.
 
@@ -20,8 +20,14 @@ For a quick demonstration, check out the video: [here](https://youtu.be/JjMxRMxL
 -	Auto-fills Annex 5, Part I, Table II: Taxable income from the sale or exchange of shares.
 -	Auto-fills Annex 13, Part II, Code 508: Sold stocks withn EU.
 
-## Supported stock trading platforms
-  - Interactive Brokers (IBKR) – Requires an activity statement in CSV format.
+## Supported stock trading platforms and activities
+  ### Interactive Brokers (IBKR) – Requires a CSV-format activity statement.
+  Supported activities:
+  - Purchase
+  - Sale
+  - Stock split (Note: reverse splits are not supported)
+
+  Currently, certain corporate actions such as spin-offs and reverse splits are not supported.
 
 > If you'd like me to add support for other popular stock trading platforms, feel free to email me at [antonix.uk@gmail.com](mailto:antonix.uk@gmail.com) or start a [discussion](https://github.com/antonfuchedzhiev/nra-stocks-toolkit/discussions) on GitHub. To make this possible, I'd need an example report from the platform - ideally in CSV format, with no personal information and preferably using fake data. Alternatively, you can write your own adapter or converter to match the IBKR Activity Statement data structure using the provided test report: [FAKE_U921264901_2023_2024.csv](resources/FAKE_U921264901_2023_2024.csv).
 

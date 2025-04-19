@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.1
+- Bug fix: The sales basis cost should be calculated as the sum of all acquisition prices in BGN (with the acquisition date determining the currency fixation), applying FIFO. This ensures that the realized profit/loss reflects the impact of currency fluctuations.
+
 ## 1.3.0
 - Minor UI adjustments.
 
