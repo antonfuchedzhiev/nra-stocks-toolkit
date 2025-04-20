@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.4.0
+- Improve the clarity and readability of the tables.
+
 ## 1.3.2
 - Introduce stock split basis adjustment/allocation. It refers to the process of redistributing the original cost of acquisition across the increased number of shares following a split. The key principle is that the total acquisition cost remains unchanged—only the cost per share is adjusted based on the new share count. Since a split does not introduce newly purchased shares, but rather restructures existing ones, it is not considered a separate acquisition event.
 
