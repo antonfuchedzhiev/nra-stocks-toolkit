@@ -11,6 +11,7 @@ Trades,Data,Order,Stocks,USD,MNO,"2024-01-15, 09:05:20",30,92.50,93.00,-2775.00,
 Trades,Data,Order,Stocks,USD,PQR,"2024-02-20, 14:15:10",15,75.40,74.90,1131.00,-1.50,1132.50,-0.25,-7.50,C;P
 Trades,Data,Order,Stocks,USD,STU,"2024-03-10, 10:40:30",40,60.25,60.50,2410.00,2.00,2412.00,0,10.00,O
 Trades,Data,Order,Stocks,USD,STU,"2024-03-12, 12:45:13",-10,60.25,60.50,2310.00,2.00,2412.00,-102,10.00,O
+Trades,Data,Order,Stocks,USD,VWX,"2024-04-05, 16:50:15",25,120.30,119.80,3007.50,-2.50,3010.00,-0.50,-12.50,C;P
 
 Change in Dividend Accruals,Header,Asset Category,Currency,Symbol,Date,Ex Date,Pay Date,Quantity,Tax,Fee,Gross Rate,Gross Amount,Net Amount,Code
 Change in Dividend Accruals,Data,Stocks,USD,XYZ,2024-10-18,2024-10-19,2024-10-25,40,1.00,0,0.30,12.00,11.00,Po
@@ -23,7 +24,6 @@ Change in Dividend Accruals,Data,Stocks,USD,DEF,2024-12-08,2024-12-02,2024-12-08
 Corporate Actions,Header,Asset Category,Currency,Report Date,Date/Time,Description,Quantity,Proceeds,Value,Realized P/L,Code
 Corporate Actions,Data,Stocks,USD,2023-09-15,"2023-09-15, 13:27:45","ABC(US5678901234) Split 10 for 1 (ABC, ABC ENERGY CORP, US5678901234)",225,0,0,0,
 
-Trades,Data,Order,Stocks,USD,VWX,"2024-04-05, 16:50:15",25,120.30,119.80,3007.50,-2.50,3010.00,-0.50,-12.50,C;P
 Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Underlying,Listing Exch,Multiplier,Type,Code
 Financial Instrument Information,Data,Stocks,XYZ,XYZ TECHNOLOGIES INC,987654,US1234567890,XYZ,NYSE,1,COMMON,
 Financial Instrument Information,Data,Stocks,LMN,LMN INDUSTRIES CORP,654321,US0987654321,LMN,IBIS,1,COMMON

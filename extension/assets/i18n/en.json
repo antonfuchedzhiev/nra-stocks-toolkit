@@ -22,7 +22,8 @@
     "MADE_BY": "Made by",
     "EU": "EU Countries",
     "NON_EU": "NON-EU Countries",
-    "EU_SALES_DISCLAIMER": "NOTE: ||| Sales from stock exchanges within the EU (European Union) are ||| highlighted in blue ||| and should be filled in Annex 13, Part II, under Code 508."
+    "EU_SALES_DISCLAIMER": "NOTE: ||| Sales from stock exchanges within the EU (European Union) are ||| highlighted in blue ||| and should be filled in Annex 13, Part II, under Code 508.",
+    "REMOVE_DATA": "Delete data"
   },
   "INITIAL": {
     "INSTRUCTIONS": "Provide ||| IBKR ||| Activity Statement ||| files in ||| CSV ||| format.",
