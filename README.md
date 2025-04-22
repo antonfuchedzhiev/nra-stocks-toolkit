@@ -2,7 +2,7 @@
 
 **За версия на този документ на български език, кликни [тук](README-BG.md).**
 
->**Make sure you always use the latest version, which is currently v. 1.5.0.**
+>**Make sure you always use the latest version, which is currently v. 1.5.1.**
 
 The purpose of this browser extension is to simplify annual tax reporting for stock holdings on the National Revenue Agency (NRA) portal in Bulgaria (https://portal.nra.bg). It helps users save time by pre-filling forms and making interactions with the portal faster and more efficient.
 

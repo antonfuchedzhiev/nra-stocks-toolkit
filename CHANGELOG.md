@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.1
+- Bug fix: Fractional shares are now rounded correctly to 5 decimal places.
+-	Bug fix: Year-based sales filtering wasn't applied when filling out the form - now fixed.
+
 ## 1.5.0
 - Added support for retaining imported CSV statements data in the extension's session storage. This improves the user experience by eliminating the need to re-select files each time the popup is opened (due to browser extension limitations).
 - Added a "Delete Data" button to manually clear stored data after use.
