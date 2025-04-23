@@ -4,9 +4,9 @@
 
 >**Уверете се, че винаги използвате най-новата версия, която в момента е v. 1.5.1.**
 
-Този браузър екстеншън има за цел да улесни попълването на приложенията от ГДД, отнасящи се до притежаване, продажба и дивиденти от акции, в портала на Националната Агенция за Приходите (НАП) в България (https://portal.nra.bg). То помага на потребителите да спестят време, като предварително попълва формуляри и прави взаимодействието с портала по-бързо и ефективно.
+Този браузър екстеншън има за цел да улесни попълването на приложенията от ГДД, отнасящи се до притежаване, продажба и дивиденти от акции, в портала на Националната Агенция за Приходите (НАП) в България (https://portal.nra.bg).
 
-За кратка демонстрация виж видеото: [тук](https://youtu.be/JjMxRMxLQno).
+За кратка демонстрация виж видеото: [тук](https://youtu.be/xY6eM4QlKWo).
 
 ![NRA Stocks Toolkit - Landing screen](screenshot-a-bg.png)
 
@@ -58,9 +58,9 @@ Download the unpacked extension as a ZIP file from [here](https://github.com/ant
 
 ## Как се използва
 
-За кратка демонстрация виж видеото: [тук](https://youtu.be/JjMxRMxLQno).
+За кратка демонстрация виж видеото: [тук](https://youtu.be/xY6eM4QlKWo).
 
-[![NRA Stocks Toolkit - YouTube Video](screenshot-d.png)](https://youtu.be/JjMxRMxLQno)
+[![NRA Stocks Toolkit - YouTube Video](screenshot-d.png)](https://youtu.be/xY6eM4QlKWo)
 
 ### Изтегляне на извлечения от IBKR
   1. Влезте в акаунта си в IBKR и отидете на "Performance & Reports" > "Statements".

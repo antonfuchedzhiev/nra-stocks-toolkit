@@ -6,7 +6,7 @@
 
 The purpose of this browser extension is to simplify annual tax reporting for stock holdings on the National Revenue Agency (NRA) portal in Bulgaria (https://portal.nra.bg). It helps users save time by pre-filling forms and making interactions with the portal faster and more efficient.
 
-For a quick demonstration, check out the video: [here](https://youtu.be/JjMxRMxLQno) (to be updated).
+For a quick demonstration, check out the video: [here](https://youtu.be/xY6eM4QlKWo).
 
 ![NRA Stocks Toolkit - Landing screen](screenshot-a.png)
 
@@ -56,9 +56,9 @@ Download the unpacked extension as a ZIP file from [here](https://github.com/ant
 
 ## How to use
 
-For a quick demonstration, check out the video [here](https://youtu.be/JjMxRMxLQno).
+For a quick demonstration, check out the video [here](https://youtu.be/xY6eM4QlKWo).
 
-[![NRA Stocks Toolkit - YouTube Video](screenshot-d.png)](https://youtu.be/JjMxRMxLQno)
+[![NRA Stocks Toolkit - YouTube Video](screenshot-d.png)](https://youtu.be/xY6eM4QlKWo)
 
 ### Download IBKR statements
   1. Log in to your IBKR account and navigate to "Performance & Reports" > "Statements".
