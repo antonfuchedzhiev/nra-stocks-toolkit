@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.6.0
+- **Corporate Action Support:** Added support for the "Merged(Acquisition)" action type to ensure accurate portfolio tracking and calculations during corporate restructurings like exchange listing migrations.
+- **Summary Section:** Introduced a "Summary" section in the header for a high-level overview of total share quantities and deposits (Electronic Fund Transfer) made during the period covered by uploaded statements.
+- **Unsupported Action Alerts:** Added an alert to flag corporate actions that are not yet implemented, identifying the exact lines from the statement to help you report them.
+- **Expanded EEA Support:** Extended coverage from EU to EEA (European Economic Area) to include the EEA EFTA states (Norway, Iceland, and Liechtenstein).
+- **Comprehensive Market Coverage:** Added 43 new exchanges (24 EEA and 19 Non-EEA) based on IBKR's official directory.
+- **Default Year Selection:** Automatically preselects the previous taxable year for sold stocks and received dividends when that data is present in imported reports, minimizing the risk of auto-filling incorrect information.
+- **Year-Specific Visuals:** Updated the color scheme to help users easily distinguish the 2025 version from the 2024 taxation year extension.
+- **Improved Data Parsing:** Fixed a bug in IBKR activity reports to correctly process number formatting for thousands, ensuring data is imported accurately.
+
 ## 1.5.1
 - Bug fix: Fractional shares are now rounded correctly to 5 decimal places.
 -	Bug fix: Year-based sales filtering wasn't applied when filling out the form - now fixed.
@@ -26,12 +36,12 @@
 
 ## 1.1.0
 - Moved the Auto-Fill options to a dropdown menu.
-- Split the Sales auto-fill into two options: "Fill Sales Outside the EU (Annex 5)" and "Fill Sales From the EU (Annex 13)".
-- Highlighted EU stock exchanges in blue in the "Sold Stocks" table and added a disclaimer for clarification.
+- Split the Sales auto-fill into two options: "Fill Sales Outside the EEA (Annex 5)" and "Fill Sales From the EEA (Annex 13)".
+- Highlighted EEA stock exchanges in blue in the "Sold Stocks" table and added a disclaimer for clarification.
 
 ## 1.0.3
 - Calculate cumulative buy/sell prices and realized P/L, since the NRA portal doesn't allow submitting multiple lines with code 508 in Annex 5, Part I, Table II. 🤷🏻‍♂️
-- Add a Non-EU/EU filter to the sold stocks view, since Annex 5, Part I, Table II applies to sales on Non-EU stock exchanges. Sales of stocks purchased on EU stock exchanges should be reported in Annex 13, Part II, under code 508 (TODO).
+- Add a Non-EEA/EEA filter to the sold stocks view, since Annex 5, Part I, Table II applies to sales on Non-EEA stock exchanges. Sales of stocks purchased on EEA stock exchanges should be reported in Annex 13, Part II, under code 508 (TODO).
 
 ## 1.0.2
 - Add IBIS and IBIS2 (Deutsche Börse Xetra) as separate stock exchanges.

@@ -2,7 +2,7 @@
 
 **За версия на този документ на български език, кликни [тук](README-BG.md).**
 
->**Make sure you always use the latest version, which is currently v. 1.5.1.**
+>**Make sure you always use the latest version, which is currently v. 1.6.0.**
 
 The purpose of this browser extension is to simplify annual tax reporting for stock holdings on the National Revenue Agency (NRA) portal in Bulgaria (https://portal.nra.bg). It helps users save time by pre-filling forms and making interactions with the portal faster and more efficient.
 
@@ -18,7 +18,7 @@ For a quick demonstration, check out the video: [here](https://youtu.be/xY6eM4Ql
 - Auto-fills Annex 8, Part I: Reports stocks and company shares held abroad as of December 31 of the tax year (stocks only).
 -	Auto-fills Annex 8, Part III: Determines the final tax due under Article 38 of the Personal Income Tax Act (PITA) for income from foreign sources of resident individuals.
 -	Auto-fills Annex 5, Part I, Table II: Taxable income from the sale or exchange of shares.
--	Auto-fills Annex 13, Part II, Code 508: Sold stocks withn EU.
+-	Auto-fills Annex 13, Part II, Code 508: Sold stocks withn EEA (European Economic Area).
 
 ## Supported stock trading platforms and activities
   ### Interactive Brokers (IBKR) – Requires a CSV-format activity statement.
@@ -70,8 +70,8 @@ For a quick demonstration, check out the video [here](https://youtu.be/xY6eM4QlK
 ### Add files to NRA Stocks Toolkit
   1. Open the NRA portal (https://portal.nra.bg) and navigate to:
   - Annex 8 for stock acquisitions and received dividends
-  - Annex 5 for sold stocks outside EU
-  - Annex 13 for sold stocks withn EU
+  - Annex 5 for sold stocks outside EEA
+  - Annex 13 for sold stocks withn EEA
   2. Open the "NRA Stocks Toolkit" extension from your browser's extensions list.
   3. Click "Add IBKR Activity Statement" and select all the downloaded CSV files.
 
@@ -85,14 +85,14 @@ For a quick demonstration, check out the video [here](https://youtu.be/xY6eM4QlK
   2. Select "Dividends (Annex 8)" option from "Auto-fill" menu to auto-fill the NRA Annex 8, Part III form. Exchange rates are retrieved from the NRA portal's official service based on the dividend pay date.
   3. Once completed, verify the data before submitting the form.
 
-### Review and fill in sales from Non-EU stock exchanges
+### Review and fill in sales from Non-EEA stock exchanges
   1. Switch to the "Sold Stocks" table. You can filter by year to match the tax period, then review the details.
-  2. Select "Sales Outside EU (Annex 5)" option from "Auto-fill" menu to auto-fill the NRA Annex 5, Part I, Table II form. Exchange rates are retrieved from the NRA portal's official service based on the sale date.
+  2. Select "Sales Outside EEA (Annex 5)" option from "Auto-fill" menu to auto-fill the NRA Annex 5, Part I, Table II form. Exchange rates are retrieved from the NRA portal's official service based on the sale date.
   4. Once completed, verify the data before submitting the form.
 
-### Review and fill in sales within EU stock exchanges
+### Review and fill in sales within EEA stock exchanges
   1. If you see lines highlighted in blue in the "Sold Stocks" table, it means you need to enter them into Annex 13 and navigate to that section on the NRA portal website.
-  2. Select "Sales Within EU (Annex 13)" option from "Auto-fill" menu to auto-fill the NRA Annex 13, Part II, Code 508. Exchange rates are retrieved from the NRA portal's official service based on the sale date.
+  2. Select "Sales Within EEA (Annex 13)" option from "Auto-fill" menu to auto-fill the NRA Annex 13, Part II, Code 508. Exchange rates are retrieved from the NRA portal's official service based on the sale date.
   4. Once completed, verify the data before submitting the form.
 
 ## Official distribution and privacy notice
@@ -112,7 +112,9 @@ Countries with which Bulgaria has a Double Taxation Avoidance Agreement (DTAA) -
 https://nra.bg/wps/portal/nra/mezhdunarodni-deinosti/siddo/spisak-sas-spogodbi
 
 ### Methods for avoiding double taxation
-Methods for relieving double taxation on profits and income earned by Bulgarian tax residents abroad, in accordance with the Double Taxation Avoidance Agreements (DTAA) - https://nra.bg/wps/portal/nra/documents/hiddenfloder1/3fd47b64-2f87-4ee4-8cba-ed43be5ffd6b
+Methods for relieving double taxation on profits and income earned by Bulgarian tax residents abroad, in accordance with the Double Taxation Avoidance Agreements (DTAA):
+- [2024](https://nra.bg/wps/portal/nra/documents/hiddenfloder1/3fd47b64-2f87-4ee4-8cba-ed43be5ffd6b)
+- [2025](https://www.tita.bg/downloads/Edition_12_2025/МЕТОДИ_СИДДО_2025.pdf)
 
 ## Changelog
 Click [here](CHANGELOG.md) to view the latest updates and changes.

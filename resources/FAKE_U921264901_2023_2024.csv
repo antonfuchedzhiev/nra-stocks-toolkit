@@ -35,3 +35,8 @@ Financial Instrument Information,Data,Stocks,MNO,MNO SOFTWARE INC,109876,US78901
 Financial Instrument Information,Data,Stocks,PQR,PQR RETAIL CORP,987654,US8901234567,PQR,NASDAQ,1,COMMON,
 Financial Instrument Information,Data,Stocks,STU,STU TELECOM LTD,876543,US9012345678,STU,NYSE,1,COMMON,
 Financial Instrument Information,Data,Stocks,VWX,VWX MEDIA GROUP,765432,US0123456789,VWX,NASDAQ,1,COMMON,
+
+Deposits & Withdrawals,Data,EUR,2021-06-12,Electronic Fund Transfer,200
+Deposits & Withdrawals,Data,EUR,2022-07-13,Electronic Fund Transfer,2300
+Deposits & Withdrawals,Data,EUR,2023-08-14,Electronic Fund Transfer,400
+Deposits & Withdrawals,Data,EUR,2024-11-15,Electronic Fund Transfer,10010

@@ -11,18 +11,20 @@
     "DIVIDENDS_TITLE": "Received Dividends (Annex 8)",
     "SALES_TITLE": "Sold Stocks (Annex 5, Annex 13)",
     "NO_ACQUISITIONS": "No acquisitions",
+    "POSITIONS": "Positions",
+    "DEPOSITS": "Deposits",
+    "DATA_SUMMARY": "Data Summary",
     "ALL": "All",
     "FILL_STOCKS": "Stocks (Annex 8)",
     "FILL_DIVIDENDS": "Dividends (Annex 8)",
-    "FILL_SALES": "Sales Outside EU (Annex 5)",
-    "FILL_SALES_EU": "Sales Within EU (Annex 13)",
+    "FILL_SALES": "Sales Outside EEA (Annex 5)",
+    "FILL_SALES_EEA": "Sales Within EEA (Annex 13)",
     "ENGLISH": "English",
     "BULGARIAN": "Bulgarian",
     "LANGUAGE": "Language:",
     "MADE_BY": "Made by",
-    "EU": "EU Countries",
-    "NON_EU": "NON-EU Countries",
-    "EU_SALES_DISCLAIMER": "NOTE: ||| Sales from stock exchanges within the EU (European Union) are ||| highlighted in blue ||| and should be filled in Annex 13, Part II, under Code 508.",
+    "EEA_SALES_DISCLAIMER": "NOTE: ||| Sales from stock exchanges within the EEA are ||| highlighted in blue ||| and should be filled in Annex 13, Part II, under Code 508.",
+    "POSITIONS_DISCLAIMER": "NOTE: ||| This data is calculated as buy/sell net quantity. If you notice a mismatch with your IBKR profile when uploading complete activity history, avoid using the acquisitions auto-filler.",
     "REMOVE_DATA": "Delete data"
   },
   "INITIAL": {
@@ -36,6 +38,7 @@
     "DATE": "Date",
     "TIME": "Time",
     "TRADE_PRICE": "Trade Price",
+    "TYPE": "Type",
     "COMM_FEE": "Comm/Fee",
     "BASIS": "Basis",
     "PROCEEDS": "Proceeds",
@@ -48,6 +51,9 @@
     "GROSS_RATE": "Gross Rate",
     "GROSS_AMOUNT": "Gross Amount",
     "NET_AMOUNT": "Net Amount",
-    "REALIZED_PL": "Real. P/L"
+    "REALIZED_PL": "Real. P/L",
+    "AMOUNT": "Amount",
+    "TOTAL": "Total",
+    "NAME": "Name"
   }
 }
