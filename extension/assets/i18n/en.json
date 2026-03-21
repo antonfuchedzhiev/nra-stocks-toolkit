@@ -24,7 +24,7 @@
     "LANGUAGE": "Language:",
     "MADE_BY": "Made by",
     "EEA_SALES_DISCLAIMER": "NOTE: ||| Sales from stock exchanges within the EEA are ||| highlighted in blue ||| and should be filled in Annex 13, Part II, under Code 508.",
-    "POSITIONS_DISCLAIMER": "NOTE: ||| This data is calculated as buy/sell net quantity. If you notice a mismatch with your IBKR profile when uploading complete activity history, avoid using the acquisitions auto-filler.",
+    "POSITIONS_DISCLAIMER": "NOTE: ||| This data is calculated as buy/sell/split net quantity. If you notice a mismatch with your IBKR profile when uploading complete activity history, avoid using the acquisitions auto-filler.",
     "REMOVE_DATA": "Delete data"
   },
   "INITIAL": {
